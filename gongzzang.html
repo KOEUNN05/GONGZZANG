@@ -1,0 +1,303 @@
+ <!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>공짱CRM</title>
+
+  <!-- Pretendard CDN -->
+  <link href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard/dist/web/static/pretendard.css" rel="stylesheet" />
+
+  <!-- Tailwind CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          fontFamily: {
+            sans: ['Pretendard', 'sans-serif'],
+          }
+        }
+      }
+    }
+  </script>
+
+  <!-- Swiper CSS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+
+  <style>
+    .swiper-pagination-bullet {
+      background-color: #E6E9EC;
+      opacity: 1;
+    }
+    .swiper-pagination-bullet-active {
+      background-color: #0079F5;
+    }
+  </style>
+</head>
+
+
+<body class="bg-white text-[#101010] font-sans">
+
+  <!-- About Section -->
+  <section class="max-w-[1000px] mx-auto pt-[100px]">
+    <h1 class="text-4xl font-bold mb-2">공짱CRM</h1>
+    <h2 class="text-[16px] text-gray-400 mb-8">산업부동산 플랫폼</h2>
+  </section>
+
+  <!-- 메인 이미지 Section -->
+  <section class="max-w-[1000px] mx-auto pb-[68px]">
+    <img src="gongzzangmain.png" alt="메인 이미지" class="w-full rounded-lg shadow-sm" />
+  </section>
+
+  <!-- Design Concept Section -->
+  <section class="max-w-[1000px] mx-auto py-20 space-y-[160px]">
+
+    <!-- Project Goal -->
+    <div class="flex flex-col md:flex-row md:justify-between md:items-start gap-4 md:gap-[184px]">
+      <p class="font-bold text-[#111827] whitespace-nowrap">PROJECT GOAL</p>
+      <div class="text-[15px] text-gray-600 md:max-w-[75%] space-y-1">
+       <p>‘공짱CRM’은 산업단지 분양 및 영업 활동을 지원하는 전용 업무지원 시스템입니다.</p>
+       <p>기존 시스템은 기능은 우수했지만 사용성이 떨어졌고, 복잡한 UI로 인해 업무 효율이 낮다는 피드백이 있었습니다.</p>
+       <p>이에 따라 사용자의 불편을 해소하고, 직관적인 정보 전달을 위해 그래프 및 지도 기반의 시각화 중심 UI를</p>
+       <p>도입했습니다. 다양한 디바이스 환경에서도 최적의 경험을 제공하는 반응형 웹으로 구현했습니다.</p>
+      </div>
+    </div>
+
+    <!-- Design Concept -->
+    <div class="flex flex-col md:flex-row md:items-start md:gap-[174px]">
+      <p class="font-bold text-[#111827] whitespace-nowrap min-w-[170px]">DESIGN CONCEPT</p>
+      <div class="text-[15px] text-gray-600">
+        <img src="hankyungconcept.png" alt="컨셉 이미지" class="w-[580px] mb-14" />
+        <p class="mb-1">단순하고 직관적인 구조를 기반으로, 다양한 기능을 최적화하여 사용성을 극대화했습니다.</p>
+        <p>전체적인 디자인은 직선적인 스타일을 유지하여 명확하고 신뢰감 있는 UI를 구현했습니다.</p>
+      </div>
+    </div>
+
+    <!-- Design Elements -->
+    <div class="flex flex-col md:flex-row md:items-start md:gap-[176px] pb-20">
+      <p class="font-bold text-[#111827] whitespace-nowrap min-w-[164px]">DESIGN ELEMENTS</p>
+      <div class="text-[15px] text-gray-600 md:max-w-[70%]">
+        <div class="flex flex-col items-start">
+          <div class="flex gap-16 mb-12">
+            <img src="font.png" alt="폰트 이미지" class="w-[260px]" />
+            <img src="gongzzangcolor.png" alt="ceducolor" class="w-[280px]" />
+          </div>
+          <div class="space-y-1">
+            <p>신뢰성과 전문성을 강조하기 위해 브랜드의 블루 컬러를 주요 UI 요소에 반영했습니다.</p>
+            <p>Pretendard 폰트를 기반으로 깔끔하고 현대적인 사용자 경험을 제공합니다.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </section>
+
+  <!-- 대시보드 Section -->
+  <section class="bg-[#ffffff] py-[100px]">
+    <div class="max-w-[900px] mx-auto">
+      <div class="text-center mb-14">
+        <h2 class="text-[32px] text-[##15171A] font-bold mb-4">한눈에 보는 영업 현황</h2>
+        <div class="text-gray-500 text-[16px] leading-relaxed space-y-1">
+        <p>대시보드를 통해 영업 메뉴, 스케줄, 진행 상황을 간소화된 형태로 제공해, 효율적인 업무 관리와 방향 설정을 돕습니다.</p>
+        </div>
+      </div>
+      <div class="flex justify-center">
+        <img src="gongzzang01.jpg" alt="상세 이미지" class="w-full" />
+      </div>
+    </div>
+  </section>
+
+  <!-- 직원/업무관리 Section -->
+  <div class="flex justify-center pt-16">
+  </div>
+  <section class="bg-[#ffffff] py-[32px] pb-[100px]">
+    <div class="max-w-[900px] mx-auto">
+      <div class="text-center mb-14">
+        <h2 class="text-[32px] text-[#15171A] font-bold mb-4">인사와 업무를 한 눈에</h2>
+        <div class="text-gray-500 text-[16px] leading-relaxed space-y-1">
+          <p>직원 리스트와 조직도 설정 등 인사 관리 기능을 통해 효율적인 인력 운영이 가능하며,</p>
+          <p>개인의 업무 보고 현황부터 전체 출퇴근 이력까지 직원 정보를 한눈에 파악하고, 업무 흐름과 근태 정보까지 통합적으로 관리할 수 있습니다.</p>
+        </div>
+      </div>
+
+      <!-- Swiper 슬라이더 시작 -->
+      <div class="swiper mySwiper relative max-w-[900px] mx-auto">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <img src="gongzzang03.jpg" alt="상세 이미지" class="w-full rounded-lg" />
+          </div>
+          <div class="swiper-slide">
+            <img src="gongzzang03-1.jpg" alt="상세 이미지" class="w-full rounded-lg" />
+          </div>
+          <div class="swiper-slide">
+            <img src="gongzzang03-2.jpg" alt="상세 이미지" class="w-full rounded-lg" />
+          </div>
+          <div class="swiper-slide">
+            <img src="gongzzang03-3.jpg" alt="상세 이미지" class="w-full rounded-lg" />
+          </div>
+          <div class="swiper-slide">
+            <img src="gongzzang03-4.jpg" alt="상세 이미지" class="w-full rounded-lg" />
+          </div>
+        </div>
+
+<!-- 왼쪽 화살표 -->
+<button class="swiper-button-prev-custom absolute left-[8px] top-1/2 -translate-y-1/2 z-10 w-10 h-10 bg-white/80 shadow-md rounded-full flex items-center justify-center hover:bg-[#f0f0f0]">
+  <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5 text-[#0079F5]" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="3">
+    <path stroke-linecap="round" stroke-linejoin="round" d="M15 19l-7-7 7-7" />
+  </svg>
+</button>
+
+<!-- 오른쪽 화살표 -->
+<button class="swiper-button-next-custom absolute right-[8px] top-1/2 -translate-y-1/2 z-10 w-10 h-10 bg-white/80 shadow-md rounded-full flex items-center justify-center hover:bg-[#f0f0f0]">
+  <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5 text-[#0079F5]" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="3">
+    <path stroke-linecap="round" stroke-linejoin="round" d="M9 5l7 7-7 7" />
+  </svg>
+</button>
+
+        <!-- 페이지네이션-->
+      <div class="swiper-pagination mt-20 flex justify-center"></div>
+      </div>
+
+    </div>
+  </section>
+
+    <!-- 영업관리 Section -->
+  <div class="flex justify-center pt-16">
+  </div>
+  <section class="bg-[#ffffff] py-[32px] pb-[100px]">
+    <div class="max-w-[900px] mx-auto">
+      <div class="text-center mb-14">
+        <h2 class="text-[32px] text-[#15171A] font-bold mb-4">업무 중심의 통합 영업 솔루션</h2>
+        <div class="text-gray-500 text-[16px] leading-relaxed space-y-1">
+          <p>영업 현황, 스케줄, 문자·메일 발송, 지도 기반 정보까지 통합하여 실제 업무에 최적화된 영업관리 시스템을 구축하였습니다.</p>
+          <p>업무 중심 설계를 통해 효율적인 정보 관리와 확장성 있는 시스템 운용이 가능합니다.</p>
+        </div>
+      </div>
+
+<div class="swiper mySwiper relative max-w-[900px] mx-auto">
+  <div class="swiper-wrapper">
+    <div class="swiper-slide">
+      <img src="gongzzang04.jpg" alt="상세 이미지" class="w-full rounded-lg" />
+    </div>
+    <div class="swiper-slide">
+      <img src="gongzzang04-1.jpg" alt="상세 이미지" class="w-full rounded-lg" />
+    </div>
+    <div class="swiper-slide">
+      <img src="gongzzang04-2.jpg" alt="상세 이미지" class="w-full rounded-lg" />
+    </div>
+    <div class="swiper-slide">
+      <img src="gongzzang04-3.jpg" alt="상세 이미지" class="w-full rounded-lg" />
+    </div>
+    <div class="swiper-slide">
+      <img src="gongzzang04-4.jpg" alt="상세 이미지" class="w-full rounded-lg" />
+    </div>
+  </div>
+
+  <!-- 왼쪽 화살표 -->
+  <button class="swiper-button-prev-custom absolute left-[8px] top-1/2 -translate-y-1/2 z-10 w-10 h-10 bg-white/80 shadow-md rounded-full flex items-center justify-center hover:bg-[#f0f0f0]">
+    <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5 text-[#0079F5]" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="3">
+      <path stroke-linecap="round" stroke-linejoin="round" d="M15 19l-7-7 7-7" />
+    </svg>
+  </button>
+
+  <!-- 오른쪽 화살표 -->
+  <button class="swiper-button-next-custom absolute right-[8px] top-1/2 -translate-y-1/2 z-10 w-10 h-10 bg-white/80 shadow-md rounded-full flex items-center justify-center hover:bg-[#f0f0f0]">
+    <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5 text-[#0079F5]" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="3">
+      <path stroke-linecap="round" stroke-linejoin="round" d="M9 5l7 7-7 7" />
+    </svg>
+  </button>
+
+  <!-- 페이지네이션-->
+  <div class="swiper-pagination mt-4 flex justify-center"></div>
+</div>
+
+    </div>
+  </section>
+
+      <!-- 산업/고객사관리 Section -->
+  <div class="flex justify-center pt-16">
+  </div>
+  <section class="bg-[#ffffff] py-[32px] pb-[100px]">
+    <div class="max-w-[900px] mx-auto">
+      <div class="text-center mb-14">
+        <h2 class="text-[32px] text-[#15171A] font-bold mb-4">산업단지/고객사 정보 관리를 효율적으로</h2>
+        <div class="text-gray-500 text-[16px] leading-relaxed space-y-1">
+          <p>산업단지 내 다수의 고객사 정보를 체계적으로 관리할 수 있도록, 명확한 데이터 구조와 직관적으로 설계했습니다.</p>
+          <p>복잡한 고객사 데이터를 빠르게 파악하고 수정할 수 있도록 정보 그룹핑, 시각적 위계 등을 고려했습니다.</p>
+        </div>
+      </div>
+
+<div class="swiper mySwiper relative max-w-[900px] mx-auto">
+  <div class="swiper-wrapper">
+    <div class="swiper-slide">
+      <img src="gongzzang02.jpg" alt="상세 이미지" class="w-full rounded-lg" />
+    </div>
+    <div class="swiper-slide">
+      <img src="gongzzang02-1.jpg" alt="상세 이미지" class="w-full rounded-lg" />
+    </div>
+    <div class="swiper-slide">
+      <img src="gongzzang02-2.jpg" alt="상세 이미지" class="w-full rounded-lg" />
+    </div>
+  </div>
+
+  <!-- 왼쪽 화살표 -->
+  <button class="swiper-button-prev-custom absolute left-[8px] top-1/2 -translate-y-1/2 z-10 w-10 h-10 bg-white/80 shadow-md rounded-full flex items-center justify-center hover:bg-[#f0f0f0]">
+    <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5 text-[#0079F5]" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="3">
+      <path stroke-linecap="round" stroke-linejoin="round" d="M15 19l-7-7 7-7" />
+    </svg>
+  </button>
+
+  <!-- 오른쪽 화살표 -->
+  <button class="swiper-button-next-custom absolute right-[8px] top-1/2 -translate-y-1/2 z-10 w-10 h-10 bg-white/80 shadow-md rounded-full flex items-center justify-center hover:bg-[#f0f0f0]">
+    <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5 text-[#0079F5]" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="3">
+      <path stroke-linecap="round" stroke-linejoin="round" d="M9 5l7 7-7 7" />
+    </svg>
+  </button>
+
+  <!-- 페이지네이션-->
+  <div class="swiper-pagination mt-4 flex justify-center"></div>
+</div>
+
+    </div>
+  </section>
+
+
+   <!-- 통계 Section -->
+  <section class="bg-[#ffffff] py-[100px]">
+    <div class="max-w-[900px] mx-auto">
+      <div class="text-center mb-14">
+        <h2 class="text-[32px] text-[##15171A] font-bold mb-4">영업 인사이트 & 매출 통계</h2>
+        <div class="text-gray-500 text-[16px] leading-relaxed space-y-1">
+        <p>직관적인 통계 인사이트를 통해 팀별 및 개별 영업 활동 현황과 매출 데이터를 손쉽게 관리할 수 있도록 설계했습니다.</p>
+        </div>
+      </div>
+      <div class="flex justify-center">
+        <img src="gongzzang06.jpg" alt="상세 이미지" class="w-full" />
+      </div>
+      <div class="flex justify-center">
+        <img src="gongzzang06-1.jpg" alt="상세 이미지" class="w-full" />
+      </div>
+    </div>
+  </section>
+
+
+ <!-- Swiper JS -->
+  <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+
+  <!-- Swiper 초기화 -->
+  <script>
+    const swiper = new Swiper(".mySwiper", {
+      loop: true,
+      pagination: {
+        el: ".swiper-pagination",
+        clickable: true,
+      },
+      navigation: {
+        nextEl: ".swiper-button-next-custom",
+        prevEl: ".swiper-button-prev-custom",
+      },
+    });
+</script>
+</body>
+</html>
